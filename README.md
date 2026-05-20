@@ -1,8 +1,8 @@
-# Advanced Library Management System 📚
+# Advanced Library Management System 
 
 A robust, enterprise-grade desktop application built with C# Windows Forms and Microsoft SQL Server. This project demonstrates strict adherence to Object-Oriented Programming (OOP) principles and implements a clean **3-Tier Architecture** to separate user interface, business logic, and database operations.
 
-## 🚀 Key Features
+##  Key Features
 
 * **Role-Based Access Control (RBAC):** Secure authentication system routing users to distinct Management or Student dashboards based on their database-assigned roles.
 * **Real-Time Inventory Management:** Administrators can dynamically add or remove books, with changes instantly synchronized across all active data grids.
@@ -10,7 +10,7 @@ A robust, enterprise-grade desktop application built with C# Windows Forms and M
 * **Complex Data Retrieval:** Utilizes parameterized SQL `INNER JOIN` queries to cross-reference the Book inventory with user-specific Wishlist records.
 * **Modern UI/UX:** Features a dark-themed interface with buttery-smooth animated transitions and double-buffered data grids to eliminate scrolling lag.
 
-## 💻 Tech Stack
+##  Tech Stack
 
 * **Language:** C#
 * **Framework:** .NET Framework (Windows Forms)
@@ -19,14 +19,14 @@ A robust, enterprise-grade desktop application built with C# Windows Forms and M
 * **Data Access:** ADO.NET (Parameterized Queries for SQL Injection prevention)
 * **Architecture:** 3-Tier Architecture (UI, BLL, DAL)
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 This application is strictly divided into three layers to ensure maintainability and scalability:
 1. **Presentation Layer (UI):** The visual Windows Forms. It contains absolutely zero direct database code.
 2. **Business Logic Layer (BLL):** The "brain" of the application. It enforces rules (e.g., "A student cannot add a 4th book") before passing data down.
 3. **Data Access Layer (DAL):** The only layer allowed to communicate with SQL Server. It handles all `SqlConnection` and `SqlCommand` executions.
 
-## 📸 Screenshots
+##  Screenshots
 
 *(Upload your screenshots to your GitHub repository and replace these placeholder links!)*
 
